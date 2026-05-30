@@ -55,7 +55,7 @@ I built this tool with a focus on **extensibility** and **performance**:
 
 ### Usage
 Simply open your terminal in any directory and type:
-`resume`
+`git-resume (or) resume`
 
 ---
 
