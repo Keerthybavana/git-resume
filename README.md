@@ -35,7 +35,7 @@ Git-Resume acts as a bridge between your terminal and your local development env
 
 ### Usage
 Simply open your terminal in any directory and type:
-`resume`
+`git-resume or resume`
 
 ---
 
