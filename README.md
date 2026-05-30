@@ -1,2 +1,24 @@
-# git-resume
-High-performance CLI tool for recursive Git workspace discovery and status auditing. Built with Java ProcessBuilder for native shell integration.
+🚀 Git-Resume
+Stop losing track of your Git repositories. Get a birds-eye view of your development workspace in seconds.
+
+Git-Resume is a lightweight, Java-based CLI utility designed to scan your local environment, identify Git repositories, and analyze their status (Clean/Dirty). It helps developers manage context switching by providing an "AI-style" diagnostic report of what needs to be committed.
+
+🌟 Key Features
+Recursive Discovery: Automatically traverses directories to find all your Git-initialized projects.
+
+Status Monitoring: Instantly identifies "Dirty" repositories with unsaved changes.
+
+Context Recovery: Generates a clean, actionable report of modified files, helping you decide what to stage next.
+
+High Performance: Built with native Java to ensure near-instant execution, even in large directory structures.
+
+Zero-Dependency: Runs on any machine with Java installed—no external libraries required.
+
+🛠️ How it Works
+Git-Resume acts as a bridge between your terminal and your local development environment. By performing a recursive scan, it maps your repositories to a numbered dashboard, allowing you to select a project and view its current state via a simple CLI interface.
+
+🚀 Getting Started
+Prerequisites
+Java Development Kit (JDK) (Version 8 or higher)
+
+Git installed and available in your system PATH.
