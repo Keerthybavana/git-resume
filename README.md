@@ -19,6 +19,26 @@ Git-Resume acts as a bridge between your terminal and your local development env
 
 ---
 
+## 💡 Why "Git-Resume" vs. Manual Git?
+Many developers rely on `git status` repeatedly. Here is how **Git-Resume** improves your workflow:
+
+| Feature | Manual Git (`git status`) | Git-Resume |
+| :--- | :--- | :--- |
+| **Scope** | Limited to the *current* directory. | Recursive: Scans *entire* sub-tree. |
+| **Efficiency** | Requires entering every folder. | Instant dashboard for all repos. |
+| **Cognitive Load** | High: You must remember repo paths. | Low: Numbered list navigation. |
+| **Actionability** | Raw logs. | Processed "AI-Style" insights. |
+
+---
+
+## 🧠 Technical Architecture
+I built this tool with a focus on **extensibility** and **performance**:
+- **Recursive Directory Walker:** Utilizes `java.io.File` to filter for `.git` metadata, ensuring only true repositories are audited.
+- **Process Orchestration:** Uses `ProcessBuilder` to bridge the gap between the JVM and the host OS, allowing the tool to execute shell commands and capture their output streams in real-time.
+- **Non-Blocking Logic:** The tool is designed to be lightweight, avoiding heavy external dependencies, which makes it perfect for low-latency developer environments.
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -35,7 +55,7 @@ Git-Resume acts as a bridge between your terminal and your local development env
 
 ### Usage
 Simply open your terminal in any directory and type:
-`git-resume or resume`
+`resume`
 
 ---
 
